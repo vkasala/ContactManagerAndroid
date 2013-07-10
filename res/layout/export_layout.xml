@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="0.9" >
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/export_fileName_textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/export_file_name_label"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line2"
+                android:padding="1dip" 
+                android:layout_gravity="center_horizontal" 
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                >
+                <TextView
+                    android:id="@+id/export_dir_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center|left"
+                    android:padding="2dip"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <EditText
+                    android:id="@+id/file_name_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="2.00" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/export_accounts_label_textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/look_up_account_label"
+                android:padding="1dip"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" 
+                android:padding="2dip" 
+                android:background="@drawable/line2">
+
+                <TextView
+                    android:id="@+id/export_accounts_textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal"
+                    android:text="@string/empty_label"
+                    android:padding="1dip"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/export_type_label_textView4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/export_type_label"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:padding="2dip"
+                android:textColor="@color/blackColor" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:padding="1dip" 
+                android:layout_gravity="center_horizontal" android:background="@drawable/line2">
+
+                <TextView
+                    android:id="@+id/export_type_textView5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal"
+                    android:text="@string/empty_label"
+                    android:padding="2dip"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blackColor" android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+			<TextView
+			    android:id="@+id/export_options_label_textView6"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/back_rectangle"
+			    android:text="@string/exportOptionsLabel"
+			    android:padding="2dip"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<LinearLayout
+			    android:id="@+id/linearLayout6"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" 
+			    android:padding="1dip" 
+                android:layout_gravity="center_horizontal" android:background="@drawable/line2">
+
+				<TextView
+				    android:id="@+id/export_options_textView7"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center|center_horizontal"
+				    android:text="@string/empty_label"
+				    android:padding="2dip"
+				    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			</LinearLayout>
+
+			<TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/back_rectangle"
+			    android:text="@string/encoding_typ_label"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<LinearLayout
+			    android:id="@+id/linearLayout7"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" android:background="@drawable/line2" android:padding="1dip">
+
+				<TextView
+				    android:id="@+id/export_encoding_type_textview"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_horizontal|center"
+				    android:padding="2dip"
+				    android:text="@string/empty_label"
+				    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			</LinearLayout>
+
+			<CheckBox
+			    android:id="@+id/export_checkBox"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:checked="false"
+			    android:text="@string/removeAccentsLabel" android:background="@drawable/line2" android:gravity="center"/>
+
+			<CheckBox
+			    android:id="@+id/export_only_which_fits"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/line2"
+			    android:text="@string/export_only_witch_fits_string" android:gravity="center_vertical|center_horizontal" android:checked="false"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:drawable/bottom_bar" >
+
+        <Button
+            android:id="@+id/export_Start_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.0"
+            android:text="@string/export_label"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/export_back_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.0"
+            android:text="@string/back_label"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

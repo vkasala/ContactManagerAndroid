@@ -1,0 +1,118 @@
+[Box:  - ::bp.iemanager]
+X=635
+Y=40
+
+[Box:  - ::bp.iemanager.csvcontact]
+X=430
+Y=40
+
+[Box:  - ::bp.iemanager.exporter]
+X=20
+Y=40
+
+[Box:  - ::bp.iemanager.importer]
+X=225
+Y=40
+
+[Diagram:]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::bp.iemanager.csvcontact - ::<<Unknown>>::Serializable]
+X=225
+Y=681
+
+[Box: ::bp.iemanager.csvcontact - ::bp.iemanager.csvcontact::CsvContact]
+X=224
+Y=40
+
+[Box: ::bp.iemanager.csvcontact - ::bp.iemanager.csvcontact::OutlookConstants]
+X=20
+Y=681
+
+[Box: ::bp.iemanager.csvcontact - ::bp.iemanager.csvcontact::ThunderbirdConstants]
+X=429
+Y=40
+
+[Diagram: ::bp.iemanager.csvcontact]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::bp.iemanager.importer - ::<<Unknown>>::Activity]
+X=544
+Y=40
+
+[Box: ::bp.iemanager.importer - ::<<Unknown>>::Serializable]
+X=1056
+Y=1699
+
+[Box: ::bp.iemanager.importer - ::<<Unknown>>::Thread]
+X=749
+Y=40
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.csvcontact::CsvContact]
+X=1150
+Y=642
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::CopyIndex]
+X=20
+Y=1699
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::ImportCostants]
+X=339
+Y=40
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::Importer]
+X=1437
+Y=40
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::ImporterActivity]
+X=393
+Y=642
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::ImporterActivity.ProgressThread]
+X=718
+Y=642
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::MoreFieldsComparator]
+X=20
+Y=40
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::OutlookImporter]
+X=1694
+Y=642
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::PossibleEqualContacts]
+X=983
+Y=28
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::SynchronizerActivity]
+X=150
+Y=642
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::ThunderbirdImporter]
+X=1405
+Y=642
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::UpdateOutlookCsvItems]
+X=1716
+Y=1699
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::UpdateThunderbirdCsvItems]
+X=1447
+Y=1699
+
+[Box: ::bp.iemanager.importer - ::bp.iemanager.importer::UserSelectedOptions]
+X=225
+Y=1699
+
+[Diagram: ::bp.iemanager.importer]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+

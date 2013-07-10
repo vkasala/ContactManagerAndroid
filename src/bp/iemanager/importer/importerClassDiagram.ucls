@@ -1,0 +1,264 @@
+<class-diagram version="1.0.8" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.PossibleEqualContacts" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/PossibleEqualContacts.java" binary="false">    
+    <position height="-1" width="-1" x="337" y="154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.Importer" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/importer/Importer.java" binary="false">    
+    <position height="-1" width="-1" x="116" y="261"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.SynchronizerActivity" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/SynchronizerActivity.java" binary="false">    
+    <position height="-1" width="-1" x="117" y="59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.SynchronizerActivity.CopyIndex" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/SynchronizerActivity.java" binary="false">    
+    <position height="-1" width="-1" x="115" y="146"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.OutlookImporter" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/importer/OutlookImporter.java" binary="false">    
+    <position height="-1" width="-1" x="116" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.ThunderbirdImporter" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/ThunderbirdImporter.java" binary="false">    
+    <position height="-1" width="-1" x="341" y="347"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.csvcontact.CsvContact" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/csvcontact/CsvContact.java" binary="false">    
+    <position height="-1" width="-1" x="341" y="267"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.MoreFieldsComparator" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/MoreFieldsComparator.java" binary="false">    
+    <position height="-1" width="-1" x="525" y="60"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.UpdateThunderbirdCsvItems" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/UpdateThunderbirdCsvItems.java" binary="false">    
+    <position height="-1" width="-1" x="339" y="439"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.UpdateOutlookCsvItems" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/UpdateOutlookCsvItems.java" binary="false">    
+    <position height="-1" width="-1" x="115" y="435"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.MatchValues" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/MatchValues.java" binary="false">    
+    <position height="-1" width="-1" x="524" y="142"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.ImporterActivity.ProgressThread" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/ImporterActivity.java" binary="false">    
+    <position height="-1" width="-1" x="526" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.ImporterActivity" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/importer/ImporterActivity.java" binary="false">    
+    <position height="-1" width="-1" x="526" y="270"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <enumeration id="14" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.importer.MatchType" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/importer/MatchType.java" binary="false">    
+    <position height="-1" width="-1" x="322" y="59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </enumeration>  
+  <association id="15">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="16" name="listOfPossibleEqualItems">        
+        <position height="14" width="122" x="401" y="181"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="2147483647">        
+        <position height="14" width="16" x="359" y="185"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="19" name="fileContact">        
+        <position height="14" width="57" x="275" y="224"/>      
+      </attribute>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="22" name="updateThunderbirdItems"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="25" name="listOfPossibleEqualContacts">        
+        <position height="14" width="138" x="131" y="187"/>      
+      </attribute>      
+      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="28" name="listOfPossibleEqualItems">        
+        <position height="14" width="120" x="273" y="111"/>      
+      </attribute>      
+      <multiplicity id="29" minimum="0" maximum="2147483647">        
+        <position height="14" width="16" x="228" y="121"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="30">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <association id="31">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="32" name="matchType"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="35" name="csvLineContact"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="38">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="39" name="matchedFields"/>      
+      <multiplicity id="40" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="42">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="43" name="updateOutlookItems"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <bendpoint x="450" y="148"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="46" name="type">        
+        <position height="14" width="25" x="333" y="86"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="14" width="18" x="387" y="88"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="48">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <association id="49">    
+    <bendpoint x="481" y="357"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="50" name="progressThread"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <bendpoint x="201" y="127"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="53" name="matchType">        
+        <position height="14" width="58" x="204" y="83"/>      
+      </attribute>      
+      <multiplicity id="54" minimum="0" maximum="1">        
+        <position height="14" width="18" x="284" y="91"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="56" name="type"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false"/>    
+    <operations public="false" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

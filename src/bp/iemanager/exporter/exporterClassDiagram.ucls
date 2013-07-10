@@ -1,0 +1,134 @@
+<class-diagram version="1.0.8" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.exporter.Exporter" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/exporter/Exporter.java" binary="false">    
+    <position height="-1" width="-1" x="569" y="226"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.exporter.ExporterActivity.ProgressThread" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/exporter/ExporterActivity.java" binary="false">    
+    <position height="-1" width="-1" x="176" y="226"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.exporter.ExporterActivity" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/exporter/ExporterActivity.java" binary="false">    
+    <position height="-1" width="-1" x="177" y="380"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.exporter.OutlookExporter" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/exporter/OutlookExporter.java" binary="false">    
+    <position height="-1" width="-1" x="367" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.exporter.ThunderbirdExporter" 
+    project="IE Manager" file="/IE Manager/src/bp/iemanager/exporter/ThunderbirdExporter.java" binary="false">    
+    <position height="-1" width="-1" x="372" y="371"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.exporter.MyFileWriter" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/exporter/MyFileWriter.java" binary="false">    
+    <position height="-1" width="-1" x="369" y="227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="bp.iemanager.csvcontact.CsvContact" project="IE Manager" 
+    file="/IE Manager/src/bp/iemanager/csvcontact/CsvContact.java" binary="false">    
+    <position height="-1" width="-1" x="572" y="375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <nesting id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="10">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="11" name="expThunderbird"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="14" name="fileWriter"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="17" name="expOutlook">        
+        <position height="14" width="58" x="251" y="135"/>      
+      </attribute>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="20" name="listOfCsvContacts"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647">        
+        <position height="14" width="16" x="580" y="331"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="23">    
+    <bendpoint x="123" y="305"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="24" name="progressThread">        
+        <position height="14" width="82" x="57" y="259"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="27" name="fileWriter">        
+        <position height="14" width="47" x="269" y="209"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false"/>    
+    <operations public="false" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

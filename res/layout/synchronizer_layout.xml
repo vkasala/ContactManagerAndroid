@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="top"
+        android:layout_weight="0.9">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" 
+                android:background="@drawable/line2" 
+                android:paddingLeft="1px">
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back_rectangle"
+                    android:text="@string/android_label"
+                    android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_horizontal" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:layout_marginTop="2px" android:layout_marginBottom="2px"/>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blueColor"
+                    android:text="@string/synch_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:paddingLeft="3px" />
+
+                <TextView
+                    android:id="@+id/phone_name_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" android:typeface="normal"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blueColor"
+                    android:text="@string/synch_phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:paddingLeft="3px" />
+
+                <TextView
+                    android:id="@+id/phone_phone_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px"  />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blueColor"
+                    android:text="@string/synch_addresses"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:paddingLeft="3px" />
+
+                <TextView
+                    android:id="@+id/phone_address_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" android:typeface="normal"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_organization"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/phone_organization_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" />
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/synchr_nickname"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:background="@color/blueColor" android:paddingLeft="3px" android:layout_marginLeft="2px" android:layout_marginRight="2px"/>
+                <TextView
+                    android:id="@+id/phone_nickname_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_im_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/phone_im_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_emails"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/phone_email_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/sycnh_webPage"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/phone_webpage_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_notes"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/phone_notes_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" android:background="@drawable/line2" android:paddingLeft="1px">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back_rectangle"
+                    android:text="@string/csv_label"
+                    android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_horizontal" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:layout_marginTop="2px" android:layout_marginBottom="2px"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blueColor"
+                    android:text="@string/synch_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:paddingLeft="3px" />
+
+                <TextView
+                    android:id="@+id/csv_name_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" 
+                    android:gravity="center_horizontal"
+                    android:typeface="normal"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blueColor"
+                    android:text="@string/synch_phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:paddingLeft="3px" />
+
+                <TextView
+                    android:id="@+id/csv_phone_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blueColor"
+                    android:text="@string/synch_addresses"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:paddingLeft="3px" />
+
+                <TextView
+                    android:id="@+id/csv_address_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" android:typeface="normal"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_organization"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/csv_organization_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/synchr_nickname"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="2px" android:layout_marginRight="2px" android:paddingLeft="3px"  android:background="@color/blueColor"/>
+
+                <TextView
+                    android:id="@+id/csv_nickname_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_im_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/csv_im_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_label" 
+                    android:paddingLeft="3px"
+                    android:textColor="@color/blackColor"
+                    android:paddingRight="2px" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_emails"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/csv_email_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/sycnh_webPage"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/csv_webpage_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2px"
+                    android:layout_marginRight="2px"
+                    android:background="@color/blueColor"
+                    android:paddingLeft="3px"
+                    android:text="@string/synch_notes"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/csv_notes_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3px"
+                    android:paddingRight="2px"
+                    android:text="@string/empty_label"
+                    android:textColor="@color/blackColor" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:background="@android:drawable/bottom_bar"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/synchronize_button"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/synchronize_synchronize_label" />
+
+        <Button
+            android:id="@+id/newContactButtonSynchronizer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/new_contact_label_button" />
+
+        <Button
+            android:id="@+id/synchronize_nextButton"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/synchronize_next_label" />
+
+        <Button
+            android:id="@+id/exit_synchronization"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exit_button_label" />
+
+    </LinearLayout>
+
+</LinearLayout>

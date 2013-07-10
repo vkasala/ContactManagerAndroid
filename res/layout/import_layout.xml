@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:weightSum="1" android:gravity="center_horizontal|center">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.98" >
+
+        <LinearLayout
+            android:id="@+id/nestedLinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="176dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/import_account_label"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/blackColor" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line2"
+                android:orientation="vertical"
+                android:padding="1dip" >
+
+                <TextView
+                    android:id="@+id/import_edit_account"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center"
+                    android:padding="1dip"
+                    android:text="@string/empty_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/import_synchronize_account"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/blackColor" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line2"
+                android:orientation="vertical"
+                android:padding="1dip" >
+
+                <TextView
+                    android:id="@+id/import_debug_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center"
+                    android:padding="1dip"
+                    android:text="@string/empty_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/file_label_textView"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line2"
+                android:orientation="vertical"
+                android:padding="1dip" >
+
+                <TableLayout
+                    android:id="@+id/tableLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dip" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="left|right"
+                            android:text="@string/dir_label"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:id="@+id/import_file_dir_textView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="left"
+                            android:text="@string/empty_label"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginTop="1dp" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/file_name_label"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:id="@+id/import_filename_textView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="left"
+                            android:text="@string/empty_label"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/line" >
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/tableLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dip" >
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/import_my_file_explorer_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/my_explorer" />
+
+                        <Button
+                            android:id="@+id/import_different_file_explorer_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/file_explorer_label" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/encoding_typ_label"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:background="@drawable/line2" android:padding="1dip">
+
+                <TextView
+                    android:id="@+id/import_encoding_type_textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center"
+                    android:padding="1dip"
+                    android:text="@string/empty_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/synch_options_min_fields_label"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line2"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/min_match_fields_to_synch_contacts"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center"
+                    android:padding="1dip"
+                    android:text="@string/empty_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/import_address_label"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line2"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/import_sync_addres_options_textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center"
+                    android:padding="1dip"
+                    android:text="@string/empty_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_rectangle"
+                android:text="@string/type_of_matching"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical" android:background="@drawable/line2">
+
+                <TextView
+                    android:id="@+id/import_type_match"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center"
+                    android:padding="1dip"
+                    android:text="@string/empty_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/nestedLinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:drawable/bottom_bar" >
+
+        <Button
+            android:id="@+id/import_button_start"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.0"
+            android:text="@string/import_button_start_text"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/import_button_exit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.0"
+            android:text="@string/import_button_exit_text"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
